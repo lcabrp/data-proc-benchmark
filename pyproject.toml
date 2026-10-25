@@ -19,4 +19,8 @@ dependencies = [
     "ruff>=0.15.14",
     "typing-extensions>=4.14.1",
     "wmi>=1.5.1; sys_platform == 'win32'",
+    "cleanflow",
 ]
+
+[tool.uv.sources]
+cleanflow = { git = "https://github.com/lcabrp/cleanflow" }
